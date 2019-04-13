@@ -88,7 +88,7 @@ background-image：可以使用网络图片，或者 base64，或者使用<image
 
 对指定要复制的文本使用text标签，并设置 selectable属性为true, 如：
 
-<text selectable="true">复制我复制我复制我复制我</text>
+  <text selectable="true">复制我复制我复制我复制我</text>
 
 13.微信小程序授权问题：如果拒绝授权，短时间内微信不会重新调起授权框让用户重新授权。
 
@@ -359,9 +359,9 @@ app.js中onLoad方法获取scene，scene为1007或1008即是分享卡片打开�
 
 41. 保存图片到系统相册，两种方法：
 
-1. 调用微信图片预览API，长按保存即可
+调用微信图片预览API，长按保存即可
 
-2. 调用API: wx.saveImageToPhotosAlbum（调用前需要 用户授权 scope.writePhotosAlbum）
+调用API: wx.saveImageToPhotosAlbum（调用前需要 用户授权 scope.writePhotosAlbum）
 
 42.使用字体图标 iconfont：
 
