@@ -86,9 +86,7 @@ background-image：可以使用网络图片，或者 base64，或者使用<image
 
 12.如何在小程序上复制文本
 
-对指定要复制的文本使用text标签，并设置 selectable属性为true, 如：
-
-  <text selectable="true">复制我复制我复制我复制我</text>
+对指定要复制的文本使用text标签，并设置 selectable属性为true
 
 13.微信小程序授权问题：如果拒绝授权，短时间内微信不会重新调起授权框让用户重新授权。
 
@@ -371,6 +369,4 @@ http://iconfont.cn 下载字体图标
 
 把转换后css文件中的 @font-face 部分替换掉，放入.wxss文件
 
-只需要引用iconfont.wxss就可以了
-
-(实例：<text class="iconfont icon-user"></text>)
+只需要引用iconfont.wxss就可以了 (class="iconfont icon-user")
